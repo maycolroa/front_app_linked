@@ -17,12 +17,14 @@ body {
     min-width: 300px;
     border-radius: 10px;
     border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: solid 1px #2980b9;
     margin: 10px;
 }
 .form-body img {
     width: 300px;
     display: block;
-    margin: 1px 0;
+    margin: 20px auto;
 }
 .text {
     text-align: center;
