@@ -1,15 +1,10 @@
-function validar()
-		{
-			var usuario = document.getElementById("usuario").value;
-			var Contraseña = document.getElementById("pass").value;	
+function validar () {
+  const usuario = document.getElementById('usuario').value;
+  const Contraseña = document.getElementById('pass').value;
 
-			if(usuario == "maycol" && Contraseña == "1234")
-			{
-				alert("Usuario y Contraseña validos");
-				window.location.href = "cliente.html"
-			}
-			else
-			{
-				alert("Verifique sus credenciales");
-			}
-		}
+  if (usuario === 'maycol' && Contraseña === '1234') {
+    window.location = 'busqueda.html';
+  } else {
+    window.alert('Usuario o contraseña invalido');
+  }
+}
