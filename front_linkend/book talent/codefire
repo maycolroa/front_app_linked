@@ -1,0 +1,21 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDiywEut7sb-U5QiJ4_EUz1JbAAkzcQFbE",
+  authDomain: "book-talent.firebaseapp.com",
+  projectId: "book-talent",
+  storageBucket: "book-talent.appspot.com",
+  messagingSenderId: "97325445563",
+  appId: "1:97325445563:web:473988a083442f4758549e",
+  measurementId: "G-2Q75Y8H4NY"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
